@@ -1,5 +1,6 @@
 #!/usr/bin/sh
 # GNU Compilation of WRF dependencies
+mkdir wrf_dependencies
 DIR=$PWD/wrf_dependencies
 
 # These only need to be set again in new shell environments if using the older make build system
